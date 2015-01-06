@@ -1,0 +1,16 @@
+{
+  "name": "mush",
+  "private": true,
+  "scripts": {
+    "start": "6to5-node bin/mush",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "6to5": "^2.6.0",
+    "prompt": "^0.2.14",
+    "read": "^1.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
