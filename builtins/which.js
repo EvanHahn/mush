@@ -22,7 +22,7 @@ function findProgramPath(program, callback) {
     }
   }
 
-  if (!result && builtins[program]) {
+  if (!result.found && builtins[program]) {
     result.fn = builtins[program];
     result.isBuiltin = true;
   }
